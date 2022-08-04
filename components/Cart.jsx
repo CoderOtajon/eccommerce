@@ -43,6 +43,7 @@ const Cart = () => {
 
   return (
     <div className="cart-wrapper" ref={cartRef}>
+      <div className="backdrop" onClick={() => setShowCart(false)}></div>
       <div className="cart-container">
         <button
           type="button"
