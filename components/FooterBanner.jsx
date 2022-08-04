@@ -34,7 +34,9 @@ const FooterBanner = ({
             <button type="button">{buttonText}</button>
           </Link>
         </div>
-        <img src={urlFor(image)} className="footer-banner-image" alt="" />
+        <picture>
+          <img src={urlFor(image)} className="footer-banner-image" alt="" />
+        </picture>
       </div>
     </div>
   );
